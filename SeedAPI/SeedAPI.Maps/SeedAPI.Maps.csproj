@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SeedAPI.Data\SeedAPI.Data.csproj" />
+      <ProjectReference Include="..\SeedAPI.Services\SeedAPI.Services.csproj" />
+      <ProjectReference Include="..\SeedAPI.ViewModels\SeedAPI.ViewModels.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -8,8 +8,9 @@
       <app-left-panel></app-left-panel>
     </mat-drawer>
     <div>
-      <router-outlet></router-outlet>
+      
     </div>
   </mat-drawer-container>
 </div>
 <div *ngIf="!authentication"><app-login></app-login></div>
+<router-outlet></router-outlet>

@@ -1,0 +1,12 @@
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.deps.json
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.dll
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\bin\Debug\netcoreapp3.1\SeedAPI.Data.dll
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\bin\Debug\netcoreapp3.1\SeedAPI.Data.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.csprojAssemblyReference.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.AssemblyInfoInputs.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.AssemblyInfo.cs
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.csproj.CopyComplete
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.dll
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Repositories\obj\Debug\netcoreapp3.1\SeedAPI.Repositories.pdb

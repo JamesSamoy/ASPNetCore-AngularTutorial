@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+      <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="3.1.14" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0-preview.3.21201.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SeedAPI.Data\SeedAPI.Data.csproj" />
+      <ProjectReference Include="..\SeedAPI.Maps\SeedAPI.Maps.csproj" />
+      <ProjectReference Include="..\SeedAPI.Services\SeedAPI.Services.csproj" />
+      <ProjectReference Include="..\SeedAPI.ViewModels\SeedAPI.ViewModels.csproj" />
+    </ItemGroup>
+
+</Project>
