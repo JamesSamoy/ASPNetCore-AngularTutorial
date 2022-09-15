@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qNTfAG0C0cw2d5CcYA2pTiBkJybuVG5akENnLmKosQIuyU2vQ2DSEmY54IIsoP7arJfZtRjHNFWUfnXcIUSmLg==",
+  "dgSpecHash": "VUvxNSxk8fMlTh8GXKsxSx3PZ1Wmae3xk6PsMRJomZAdcsjJtSDAK0zq9OA6x/CfCcY1Yt+/BUaultnl0Qjrqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jsamoy\\Projects\\AngularASPNetCoreApp\\ASPNetCore-AngularTutorial\\SeedAPI\\SeedAPI.Data\\SeedAPI.Data.csproj",
   "expectedPackageFiles": [
@@ -26,9 +26,11 @@
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.14\\microsoft.extensions.logging.abstractions.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.extensions.options\\3.1.14\\microsoft.extensions.options.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.14\\microsoft.extensions.primitives.3.1.14.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\mongodb.bson\\2.14.0\\mongodb.bson.2.14.0.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\jsamoy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\jsamoy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

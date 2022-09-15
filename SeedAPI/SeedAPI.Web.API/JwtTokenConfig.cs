@@ -23,17 +23,17 @@ namespace SeedAPI.Web.API
                         ValidAudience = configuration["Jwt:Issuer"],
                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
                     };
-                    services.AddCors(opts =>
-                    {
-                        opts.AddPolicy(
-                            name: "AllowOrigin",
-                            builder =>{
-                                builder.AllowAnyOrigin()
-                                    .AllowAnyMethod()
-                                    .AllowAnyHeader();
-                            });
-                    });
                 });
+            services.AddCors(opts =>
+            {
+                opts.AddPolicy(
+                    name: "AllowOrigin",
+                    builder =>{
+                        builder.AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader();
+                    });
+            });
         }
     }
 }

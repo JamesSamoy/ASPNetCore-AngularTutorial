@@ -19,7 +19,7 @@ export class TokenService extends BaseService {
     }
 
     private getToken (body:any): Observable<any> {
-        return this.http.post<any>(this.pathAPI + 'token', body, super.header()).pipe(
+        return this.http.post<any>(this.pathAPI + 'Token', body, super.header()).pipe(
             catchError(super.handleError)
         );
     }

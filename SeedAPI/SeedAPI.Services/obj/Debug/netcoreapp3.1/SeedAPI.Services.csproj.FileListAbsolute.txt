@@ -5,10 +5,11 @@ C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\bin\Debug\netcoreapp3.1\SeedAPI.Data.pdb
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.pdb
-C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.csprojAssemblyReference.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.AssemblyInfoInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.AssemblyInfo.cs
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.csproj.CoreCompileInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.csproj.CopyComplete
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.csproj.AssemblyReference.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Services\obj\Debug\netcoreapp3.1\SeedAPI.Services.GeneratedMSBuildEditorConfig.editorconfig

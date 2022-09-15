@@ -10,10 +10,10 @@ namespace SeedAPI.Web.API
     {
         public static void AddScope(IServiceCollection services)
         {
-            services.AddScoped<IApplicationContext, ApplicationContext>();
-            services.AddScoped<IUserMap, UserMap>();
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IUserRepository, UserRepository>();
+            //services.AddScoped<IApplicationContext, ApplicationContext>();
+            //services.AddScoped<IUserMap, UserMap>();
+            //services.AddScoped<IUserService, UserService>();
+            //services.AddScoped<IUserRepository, UserRepository>();
         }
     }
 }

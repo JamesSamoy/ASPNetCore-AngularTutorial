@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MongoDB.Driver;
 using SeedAPI.Data.Context;
 using SeedAPI.Maps;
 
@@ -13,7 +14,7 @@ namespace SeedAPI.Web.API
     {
         public static void Initialize(IConfiguration configuration, IWebHostEnvironment env, IServiceProvider svp)
         {
-            var optionsBuilder = new DbContextOptionsBuilder();
+            /*var optionsBuilder = new DbContextOptionsBuilder();
             if (env.IsDevelopment())
             {
                 var connection = configuration.GetConnectionString("DefaultConnection");
@@ -33,13 +34,21 @@ namespace SeedAPI.Web.API
             {
                 IUserMap service = svp.GetService(typeof(IUserMap)) as IUserMap;
                 new DbInitializeConfig(service).DataTest();
-            }
+            }*/
         }
 
         public static void Initialize(IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+            // New configuration set up for mongo db
+            services.AddSingleton<IMongoClient, MongoClient>(s =>
+            {
+                return new MongoClient(configuration.GetConnectionString("MongoUri"));
+            });
+
+
+            // Old configuration setup for sql server 
+            // services.AddDbContext<ApplicationContext>(options =>
+            //     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
         }
     }
 }

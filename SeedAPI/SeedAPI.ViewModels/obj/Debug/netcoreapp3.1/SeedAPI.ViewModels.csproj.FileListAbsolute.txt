@@ -1,9 +1,10 @@
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\bin\Debug\netcoreapp3.1\SeedAPI.ViewModels.deps.json
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\bin\Debug\netcoreapp3.1\SeedAPI.ViewModels.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\bin\Debug\netcoreapp3.1\SeedAPI.ViewModels.pdb
-C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.csprojAssemblyReference.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.AssemblyInfoInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.AssemblyInfo.cs
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.csproj.CoreCompileInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.csproj.AssemblyReference.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.ViewModels\obj\Debug\netcoreapp3.1\SeedAPI.ViewModels.GeneratedMSBuildEditorConfig.editorconfig

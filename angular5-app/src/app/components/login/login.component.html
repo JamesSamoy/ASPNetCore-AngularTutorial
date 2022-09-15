@@ -1,6 +1,15 @@
 <div routerLink="/login">
-    this is login!
+    <p>This is the login page, Please login below</p>
 
-    <button (click)="login()">Login</button>
+    <ul>
+        <input #username>
+    </ul>
+    <ul>
+        <input #password>
+    </ul>
+    <ul>
+        <button (click)="login(username.value, password.value)">Login</button>
+    </ul>
+    
 </div>
 

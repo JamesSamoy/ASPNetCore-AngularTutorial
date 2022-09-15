@@ -1,9 +1,10 @@
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\bin\Debug\netcoreapp3.1\SeedAPI.Interfaces.deps.json
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\bin\Debug\netcoreapp3.1\SeedAPI.Interfaces.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\bin\Debug\netcoreapp3.1\SeedAPI.Interfaces.pdb
-C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.csprojAssemblyReference.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.AssemblyInfoInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.AssemblyInfo.cs
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.csproj.CoreCompileInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.csproj.AssemblyReference.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Interfaces\obj\Debug\netcoreapp3.1\SeedAPI.Interfaces.GeneratedMSBuildEditorConfig.editorconfig

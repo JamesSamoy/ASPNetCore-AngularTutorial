@@ -7,6 +7,6 @@ import { Component} from '@angular/core';
 })
 export class HeadComponent {
 
-  title = 'Angular 5 Seed';
+  title = 'JVAB';
 
 }

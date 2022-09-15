@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Net.Security;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -10,6 +11,7 @@ using SeedAPI.ViewModels;
 
 namespace SeedAPI.Web.API.Controllers
 {
+    [EnableCors("AllowOrigin")]
     [Route("api/Token")]
     public class TokenController : Controller
     {
@@ -29,7 +31,7 @@ namespace SeedAPI.Web.API.Controllers
             if (user != null)
             {
                 var tokenString = BuildToken(user);
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                // Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 response = Ok(new {token = tokenString});
             }
 

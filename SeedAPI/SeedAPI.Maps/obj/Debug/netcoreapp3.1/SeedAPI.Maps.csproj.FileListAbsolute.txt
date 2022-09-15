@@ -9,10 +9,11 @@ C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\bin\Debug\netcoreapp3.1\SeedAPI.Services.pdb
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\bin\Debug\netcoreapp3.1\SeedAPI.ViewModels.pdb
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\bin\Debug\netcoreapp3.1\SeedAPI.Repositories.pdb
-C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.csprojAssemblyReference.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.AssemblyInfoInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.AssemblyInfo.cs
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.csproj.CoreCompileInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.csproj.CopyComplete
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.pdb
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.csproj.AssemblyReference.cache
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Maps\obj\Debug\netcoreapp3.1\SeedAPI.Maps.GeneratedMSBuildEditorConfig.editorconfig

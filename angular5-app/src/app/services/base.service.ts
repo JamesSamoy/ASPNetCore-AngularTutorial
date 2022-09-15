@@ -24,7 +24,9 @@ export class BaseService {
             errMsg = error.message ? error.message : error.toString();
         }
         console.error(errMsg);
-        return Observable.throw(errMsg);
+        window.alert(errMsg);
+        return throwError(errMsg);
+        //return Observable.throw(errMsg);
     }
 
     public header(){

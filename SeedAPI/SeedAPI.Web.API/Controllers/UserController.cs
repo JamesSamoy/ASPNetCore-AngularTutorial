@@ -1,27 +1,30 @@
 ﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SeedAPI.Maps;
-using SeedAPI.ViewModels;
+using MongoDB.Driver;
+using SeedAPI.Data;
 
 namespace SeedAPI.Web.API.Controllers
 {
+    [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+    //[Authorize]
     public class UserController : Controller
     {
-        private IUserMap _userMap;
+        // private IUserMap _userMap;
+        private IMongoCollection<Shipwreck> _shipWreckCollection;
 
-        public UserController(IUserMap userMap)
+        public UserController(IMongoClient client)
         {
-            _userMap = userMap;
+            // _userMap = userMap;
+            var database = client.GetDatabase("sample_geospatial");
+            _shipWreckCollection = database.GetCollection<Shipwreck>("shipwrecks");
         }
         
         // GET api/user
         [HttpGet]
-        public IEnumerable<UserViewModel> Get()
+        public IEnumerable<Shipwreck> Get()
         {
-            return _userMap.GetAll();
+            return _shipWreckCollection.Find(s => s.FeatureType == "Wrecks - Visible").ToList();
         }
         
         // GET api/user/5

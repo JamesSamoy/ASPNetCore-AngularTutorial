@@ -1,2 +1,9 @@
-<h1>{{title}}</h1>
-<button mat-button [routerLink]=" ['./logout'] ">Logout!</button>
+<div>
+    <h1 id="title">{{title}} - Welcome to James's Very Awesome Blog</h1>
+    <nav>
+        <button mat-button [routerLink]=" ['./logout'] ">Logout!</button>
+        <button mat-button [routerLink]=" ['./users'] ">Users</button>
+        <button mat-button [routerLink]=" ['./dashboard'] ">Dashboard</button>
+    </nav>
+
+</div>
