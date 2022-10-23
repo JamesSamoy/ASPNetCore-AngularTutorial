@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t2n+MuWUOAv6bGJAYhEFmBwPEvvILik1EohYVxzhkz43p+rgiDzV/btkA73WhimSRqV/+wZElA9aVFZOnYraaw==",
+  "dgSpecHash": "kcqfdYU6xH7LK9ibMDOZD+cyEupsrkCmOSPHjCiEw1mxRfCXDNgqx4PcW2PQdtFd0ESs3LM4rNRLHF4nOHrMYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jsamoy\\Projects\\AngularASPNetCoreApp\\ASPNetCore-AngularTutorial\\SeedAPI\\SeedAPI.Web.API\\SeedAPI.Web.API.csproj",
   "expectedPackageFiles": [

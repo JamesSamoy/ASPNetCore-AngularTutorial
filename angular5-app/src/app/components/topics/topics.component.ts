@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {TopicDataService} from '../../services/topic-data.service';
+import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-topics',
@@ -8,7 +9,7 @@ import {TopicDataService} from '../../services/topic-data.service';
 })
 export class TopicsComponent implements OnInit {
 
-  public topics;
+  topics: Observable<any>;
 
   constructor(topics: TopicDataService) {
     this.topics = topics.getTopics();

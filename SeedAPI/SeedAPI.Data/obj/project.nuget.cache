@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VUvxNSxk8fMlTh8GXKsxSx3PZ1Wmae3xk6PsMRJomZAdcsjJtSDAK0zq9OA6x/CfCcY1Yt+/BUaultnl0Qjrqg==",
+  "dgSpecHash": "yr972x5MTIZgoLT/M0iXXboRq1FrdUq+uEvwhaRaTP+I76p6fc2I4zFrSkZ4bT4+Dz/xrUsNluJxVtvIPU8hOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\jsamoy\\Projects\\AngularASPNetCoreApp\\ASPNetCore-AngularTutorial\\SeedAPI\\SeedAPI.Data\\SeedAPI.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jsamoy\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.14\\microsoft.aspnetcore.cryptography.internal.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.14\\microsoft.aspnetcore.cryptography.keyderivation.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.14\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.14.nupkg.sha512",
@@ -27,6 +28,11 @@
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.extensions.options\\3.1.14\\microsoft.extensions.options.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.14\\microsoft.extensions.primitives.3.1.14.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\mongodb.bson\\2.14.0\\mongodb.bson.2.14.0.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\mongodb.driver\\2.14.0\\mongodb.driver.2.14.0.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\mongodb.driver.core\\2.14.0\\mongodb.driver.core.2.14.0.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\jsamoy\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\jsamoy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",

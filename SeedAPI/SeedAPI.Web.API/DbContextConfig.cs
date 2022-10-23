@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MongoDB.Driver;
 using SeedAPI.Data.Context;
-using SeedAPI.Maps;
 
 namespace SeedAPI.Web.API
 {

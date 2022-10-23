@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 using SeedAPI.Data;
+using SeedAPI.Services;
 
 namespace SeedAPI.Web.API.Controllers
 {
@@ -12,19 +14,18 @@ namespace SeedAPI.Web.API.Controllers
     {
         // private IUserMap _userMap;
         private IMongoCollection<Shipwreck> _shipWreckCollection;
+        private IUserService _userService;
 
-        public UserController(IMongoClient client)
+        public UserController(IUserService userService)
         {
-            // _userMap = userMap;
-            var database = client.GetDatabase("sample_geospatial");
-            _shipWreckCollection = database.GetCollection<Shipwreck>("shipwrecks");
+            _userService = userService;
         }
         
-        // GET api/user
-        [HttpGet]
-        public IEnumerable<Shipwreck> Get()
+        // GET api/user/getUsers
+        [HttpGet("GetUsers")]
+        public async Task<List<User>> GetUsers()
         {
-            return _shipWreckCollection.Find(s => s.FeatureType == "Wrecks - Visible").ToList();
+            return await _userService.GetAsync();
         }
         
         // GET api/user/5
@@ -34,22 +35,28 @@ namespace SeedAPI.Web.API.Controllers
             return "value";
         }
         
-        // POST api/user
-        [HttpPost]
-        public void Post([FromBody] string user)
+        // POST api/user/create
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateUser([FromBody] User user)
         {
+            await _userService.CreateAsync(user);
+            return CreatedAtAction(nameof(CreateUser), new { id = user.Id }, user);
         }
         
-        // PUT api/user/5
-        [HttpPut]
-        public void Put(int id, [FromBody] string user)
+        // PUT api/user/update
+        [HttpPut("Update")]
+        public async Task<IActionResult> UpdateUser([FromBody] User user)
         {
+            await _userService.UpdateUserByIdAsync(user);
+            return NoContent();
         }
         
-        // DELETE api/user/5
-        [HttpDelete]
-        public void Delete(int id)
+        // DELETE api/user/delete
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> DeleteUser(string id)
         {
+            await _userService.DeleteUser(id);
+            return NoContent();
         }
     }
 }

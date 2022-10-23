@@ -1,17 +1,19 @@
-<div *ngIf="authentication">
-  <app-head></app-head>
-  <button type="button" mat-button (click)="drawer.toggle()">
-    Menu
-  </button>
-  <mat-drawer-container class="example-container" autosize>
-    <mat-drawer #drawer class="example-sidenav" mode="side">
-      <app-left-panel></app-left-panel>
-    </mat-drawer>
-    <div>
+<div class="appContainer">
+  <div *ngIf="authentication">
+    <app-head></app-head>
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Menu
+    </button>
+    <mat-drawer-container class="example-container" autosize>
+      <mat-drawer #drawer class="example-sidenav" mode="side">
+        <app-left-panel></app-left-panel>
+      </mat-drawer>
+      <div>
 
-    </div>
-  </mat-drawer-container>
+      </div>
+    </mat-drawer-container>
+  </div>
+  <div *ngIf="!authentication"><app-login></app-login></div>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
 </div>
-<div *ngIf="!authentication"><app-login></app-login></div>
-<router-outlet></router-outlet>
-<app-footer></app-footer>

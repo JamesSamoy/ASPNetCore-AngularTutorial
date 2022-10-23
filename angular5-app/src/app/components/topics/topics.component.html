@@ -1,8 +1,8 @@
 <p>topics works!</p>
 
-<div *ngFor="let topic of topics">
+<div *ngFor="let topic of topics | async">
   <h1>{{topic.name}}</h1>
-  <img [src]="topic.image">
+  <!--<img [src]="topic.image">
   <p><a [href]="topic.gitUrl">Git</a> </p>
-  <p><a [href]="topic.liveUrl">Live</a> </p>
+  <p><a [href]="topic.liveUrl">Live</a> </p>-->
 </div>

@@ -1,16 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using SeedAPI.Data;
 
 namespace SeedAPI.Services
 {
     public interface IUserService
     {
-        public User Create(User domain);
+        public Task CreateAsync(User user);
 
-        public bool Update(User domain);
+        public Task UpdateUserByIdAsync(User user);
 
-        public bool Delete(int id);
+        public Task DeleteUser(string id);
 
-        public List<User> GetAll();
+        public Task<List<User>> GetAsync();
     }
 }

@@ -1,36 +1,45 @@
 ﻿using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using SeedAPI.Data;
-using SeedAPI.Repositories;
 
 namespace SeedAPI.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _repository;
 
-        public UserService(IUserRepository repository)
+        private IMongoCollection<User> _userCollection;
+        
+        public UserService(IMongoClient client, IConfiguration config)
         {
-            _repository = repository;
+            var database = client.GetDatabase(config.GetConnectionString("applicationDatabase"));
+            _userCollection = database.GetCollection<User>("Users");
         }
 
-        public User Create(User domain)
+        public async Task CreateAsync(User user)
         {
-            return _repository.Save(domain);
+            await _userCollection.InsertOneAsync(user);
+            return;
         }
 
-        public bool Update(User domain)
+        public async Task UpdateUserByIdAsync(User user)
         {
-            return _repository.Update(domain);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq("Id", user.Id);
+            await _userCollection.ReplaceOneAsync(filter, user);
         }
 
-        public bool Delete(int id)
+        public async Task DeleteUser(string id)
         {
-            return _repository.Delete(id);
+            FilterDefinition<User> filter = Builders<User>.Filter.Eq("Id", id);
+            await _userCollection.DeleteOneAsync(filter);
         }
 
-        public List<User> GetAll()
+        public async Task<List<User>> GetAsync()
         {
-            return _repository.GetAll();
+            return await _userCollection.Find(new BsonDocument()).ToListAsync();
         }
     }
 }

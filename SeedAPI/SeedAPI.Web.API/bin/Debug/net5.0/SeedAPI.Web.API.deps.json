@@ -1466,7 +1466,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.14",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
           "Microsoft.Extensions.Identity.Stores": "3.1.14",
-          "MongoDB.Bson": "2.14.0"
+          "MongoDB.Bson": "2.14.0",
+          "MongoDB.Driver": "2.14.0"
         },
         "runtime": {
           "SeedAPI.Data.dll": {}
@@ -1501,6 +1502,7 @@
       },
       "SeedAPI.Services/1.0.0": {
         "dependencies": {
+          "MongoDB.Driver": "2.14.0",
           "SeedAPI.Data": "1.0.0",
           "SeedAPI.Repositories": "1.0.0"
         },

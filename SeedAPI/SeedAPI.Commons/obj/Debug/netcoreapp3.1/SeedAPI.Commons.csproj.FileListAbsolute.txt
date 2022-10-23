@@ -6,5 +6,5 @@ C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.csproj.CoreCompileInputs.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.dll
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.pdb
-C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.csproj.AssemblyReference.cache
 C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jsamoy\Projects\AngularASPNetCoreApp\ASPNetCore-AngularTutorial\SeedAPI\SeedAPI.Commons\obj\Debug\netcoreapp3.1\SeedAPI.Commons.csproj.AssemblyReference.cache
